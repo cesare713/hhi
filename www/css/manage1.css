@@ -1,0 +1,26 @@
+.bg {
+    padding-bottom: 20px;
+    background: url(../images/phil_bg_0.gif) no-repeat 95% 0%;
+}
+
+
+
+.et_title {
+    margin: 50px 0;
+    margin-bottom: 5px;
+    color: #0c4da2;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ethicsbox {
+    margin: 50px 0px;
+}
+
+.ethicsbox p {
+    margin-bottom: 20px;
+}
+
+.ethicsbox .list-blue {
+    margin-top: 50px;
+}

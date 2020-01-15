@@ -1,0 +1,427 @@
+#course {
+    background-color: #EFEFEF;
+    margin: 30px 0px;
+    padding: 20px;
+    overflow: auto;
+}
+
+#cleft {
+    float: left;
+    width: calc(100% - 300px);
+    padding-right: 10px;
+}
+
+#cleft p {
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+#cleft img {
+    display: block;
+    width: 100%;
+}
+
+#cright {
+    float: left;
+    width: 300px;
+    height: 490px;
+    overflow: auto;
+    background-color: #FAFAFA;
+    padding: 1em;
+}
+
+.room {
+    overflow: auto;
+    margin-bottom: 1.2em;
+}
+
+.room div:first-of-type {
+    float: left;
+    width: 90px;
+    margin-right: 8px;
+}
+
+.room div:last-of-type {
+    float: left;
+    width: calc(100% - 98px);
+}
+
+.room p {
+    margin-bottom: 5px;
+    letter-spacing: -0.07em;
+}
+
+.room p:first-of-type {
+    font-weight: 800;
+}
+
+.room p:last-of-type {
+    font-size: 0.87em;
+}
+
+.btn {
+    display: inline-block;
+    width: 240px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #31363E;
+    color: white;
+    font-size: 1.1em;
+}
+
+.btn-mark {
+    background-color: #134EA0;
+}
+
+
+/*체크모달 스타일*/
+#checkmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.85);
+    z-index: 10000;
+    display: none;
+}
+
+#cmodalbox {
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    overflow: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 940px;
+    max-height: 590px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+}
+
+#cmodalbox h4 {
+    font-size: 1.3em;
+    color: #0C4DA2;
+    margin-bottom: 0.7em;
+}
+
+#cmodalbox>p {
+    font-size: 0.9em;
+    color: #333;
+}
+
+#cmodalbox>p::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #0C4DA2;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+#cmodalbox hr {
+    margin-top: 0.7em;
+    margin-bottom: 1.1em;
+}
+
+#movecenter {
+    max-width: 530px;
+    width: 100%;
+    margin: auto;
+}
+
+#movecenter p {
+    text-align: center;
+    font-size: 1.08em;
+    font-weight: bold;
+    color: #0C4DA2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/*체크모달 내 표 스타일*/
+#movecenter table {
+    min-width: auto;
+    border-top: 1px solid #D1E0EA;
+    margin-bottom: 150px;
+}
+
+#movecenter th,
+#movecenter td {
+    border-bottom: 1px solid #D1E0EA;
+    border-right: none;
+}
+
+#movecenter th {
+    font-weight: normal;
+    text-align: right;
+    background-color: #F0F7FC;
+    word-break: keep-all;
+}
+
+#movecenter td {
+    padding-right: 40px;
+}
+
+#movecenter input {
+    height: 32px;
+    border: 1px solid #CECECE;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+#movecenter input[name="username"] {
+    width: 100%;
+}
+
+#movecenter input[name^="tel"] {
+    width: 26%;
+    float: left;
+}
+
+#movecenter span {
+    float: left;
+    display: block;
+    width: 11%;
+    text-align: center;
+    line-height: 32px;
+}
+
+#cmodalbox .btn {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0.9em;
+}
+
+/* 투어코스 스타일 */
+#tour {
+    margin: 30px 0px;
+    padding: 28px;
+    overflow: auto;
+    border: 1px solid #d3d3d3;
+}
+
+#tour img {
+    float: left;
+    width: 73%;
+}
+
+#tour ul {
+    font-weight: bold;
+    color: #333;
+    float: right;
+    width: 25%;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+
+/* 오시는길 스타일 */
+#direction {
+    margin: 30px 0px;
+    overflow: auto;
+    border: 1px solid #d3d3d3;
+}
+
+#direction img {
+    float: left;
+    width: 62%;
+    transform: translateX(1px);
+}
+
+#direction>div {
+    color: #333;
+    float: right;
+    width: 38%;
+    padding: 10px;
+    padding-top: 90px;
+}
+
+#direction>div>div {
+    overflow: auto;
+    margin: auto;
+    margin-bottom: 1em;
+    max-width: 320px;
+}
+
+.blue-cell {
+    display: block;
+    float: left;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #134EA0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+}
+.blue-cont {
+    float: left;
+    width: calc(100% - 100px);
+    line-height: 1.45em;
+    font-size: 0.95em;
+}
+
+.blue-link {
+    color: #134EA0;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    text-decoration: underline;
+}
+
+@media all and (max-width: 1025px){
+    #cleft, #cright {
+        float: none;
+        width: 100%;
+    }
+    
+    #cright {
+        height: auto;
+    }
+    
+    .room {
+        width: 50%;
+    }
+    
+    .room:nth-of-type(odd) {
+        float: left;
+    }
+    
+    .room:nth-of-type(even) {
+        float: right;
+    }
+    
+    .room div:last-of-type {
+        padding-right: 10px;
+    }
+    
+}
+
+@media all and (max-width: 800px) {
+    #tour {
+        padding: 10px;
+    }
+
+    #tour img {
+        float: none;
+        width: 100%;
+    }
+
+    #tour ul {
+        float: none;
+        width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+        overflow: auto;
+    }
+    
+    #tour ul li {
+        width: 50%;
+        float: left;
+    }
+        
+    #direction>img,
+    #direction>div {
+        float: none;
+        width: 100%;
+    }
+    
+    #direction>div {
+        padding-top: 20px;
+    }
+    
+    #direction>div>div {
+        max-width: none;
+    }
+    
+}
+
+
+@media all and (max-width: 600px) {
+    #cright {
+        height: 200px;
+    }
+    
+    .room {
+        width: 100%;
+        float: none;
+    }
+    
+    #movecenter table {
+        margin-bottom: 30px;
+    }
+    
+    #movecenter p {
+        margin-top: 30px;
+    }
+    
+    #movecenter th,
+    #movecenter td {
+        padding: 0.6em 0.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

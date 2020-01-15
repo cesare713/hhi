@@ -1,0 +1,33 @@
+#hsebox {
+    display: block;
+    margin: 50px 10px;
+}
+
+#cerimg {
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+.tit_blue {
+    color: #0c4da2;
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.cimg {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5px 0 5px;
+    text-align: center;
+}
+
+.cimg img {
+    max-width: 100%;
+    border: none;
+}
+
+.cimg p {
+    display: block;
+    font-size: 15px;
+}
